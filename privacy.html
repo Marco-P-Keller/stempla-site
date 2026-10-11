@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stempla – Datenschutzerklärung</title>
+<link rel="icon" href="icon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><nav><a class="brand" href="./"><img src="icon.png" alt="">Stempla</a><div class="links"><a href="#en">English</a><a href="support.html">Hilfe</a></div></nav></header>
+<main class="legal">
+<h1>Datenschutzerklärung für die App Stempla</h1>
+<p class="muted">Stand: 11. Oktober 2026</p>
+
+<h2>1. Kurz gesagt</h2>
+<p>Stempla hat keinen Server und kein Benutzerkonto. Alle Daten, die Sie in Stempla erfassen (Mitarbeitende, Stempelzeiten, PIN-Prüfwerte und Gesichtsmerkmale), werden ausschliesslich auf Ihrem Gerät gespeichert. Connexa GmbH erhält davon nichts. Die App enthält keine Werbung, keine Analyse- oder Tracking-Werkzeuge und keine Drittanbieter-SDKs.</p>
+
+<h2>2. Verantwortliche Stellen</h2>
+<p>Für die App: Connexa GmbH, Wilerstrasse 82, 8370 Sirnach, Schweiz, <a href="mailto:privacy@connexa-gmbh.ch">privacy@connexa-gmbh.ch</a>.</p>
+<p>Für die Zeiterfassung der Mitarbeitenden ist der Betrieb verantwortlich, der Stempla einsetzt (Arbeitgeber). Er entscheidet, welche Daten er erfasst, und ist Ansprechpartner der Mitarbeitenden für Auskunft, Berichtigung und Löschung. Connexa GmbH hat keinen Zugriff auf diese Daten.</p>
+
+<h2>3. Welche Daten auf dem Gerät gespeichert werden</h2>
+<ul>
+<li><b>Angaben zu Mitarbeitenden:</b> Vor- und Nachname, optional Personalnummer, Abteilung und Wochenstunden.</li>
+<li><b>Stempelzeiten:</b> Kommen, Gehen, Art der Stempelung (Gesicht, PIN, manuell), Notizen und bei Korrekturen der Grund und die Originalzeit.</li>
+<li><b>PIN:</b> nur ein gesalzener Prüfwert (PBKDF2-SHA256), nie die PIN selbst. Gleiches gilt für den Admin-Code, der im Schlüsselbund des Geräts liegt.</li>
+<li><b>Gesichtsmerkmale (biometrische Daten):</b> nur bei Personen, die eingewilligt haben, siehe Ziffer 4.</li>
+</ul>
+
+<h2>4. Gesichtserkennung</h2>
+<p><b>Freiwillig.</b> Die Gesichtserkennung wird nur eingerichtet, wenn die betroffene Person in der App selbst ausdrücklich einwilligt. Wer nicht einwilligt, stempelt mit einer PIN, ohne Nachteil. Die PIN ist für alle Personen jederzeit verfügbar.</p>
+<p><b>Keine Fotos.</b> Die App wertet Kamerabilder nur im Arbeitsspeicher aus und verwirft sie sofort. Gespeichert wird pro Person ein mathematisches Merkmal aus 128 Zahlen (einige Varianten aus der Einrichtung). Aus diesen Zahlen lässt sich kein Foto zurückrechnen.</p>
+<p><b>3D-Prüfung.</b> Auf Geräten mit TrueDepth-Kamera misst Stempla die Tiefe des Gesichts, um Fotos und Bildschirme abzuweisen. Die Tiefendaten werden nicht gespeichert.</p>
+<p><b>Verschlüsselt und nur auf dem Gerät.</b> Die Merkmale sind mit AES-256-GCM verschlüsselt. Der Schlüssel liegt im Schlüsselbund des Geräts mit der Einstellung „nur dieses Gerät“. Die Datei ist von iCloud- und Computer-Backups ausgeschlossen. Die Merkmale werden nie übertragen und ausschliesslich zur Zeiterfassung verwendet, nicht für Werbung, Profilbildung oder andere Zwecke.</p>
+<p><b>Widerruf und Löschung.</b> Die Einwilligung kann jederzeit beim Arbeitgeber widerrufen werden. Die Gesichtsdaten werden dann in der App sofort gelöscht. Beim Archivieren oder Löschen einer Person werden ihre Gesichtsdaten automatisch gelöscht. Unter Einstellungen › Datenschutz lassen sich alle Gesichtsdaten auf einmal löschen.</p>
+<p><b>Technik.</b> Die Gesichtserkennung nutzt das Open-Source-Modell SFace (OpenCV Model Zoo, Apache License 2.0), das vollständig auf dem Gerät läuft.</p>
+
+<h2>5. Exporte</h2>
+<p>Exporte (CSV, PDF) erstellt die App nur, wenn eine berechtigte Person in der Verwaltung dies auslöst. Wohin die Datei geteilt wird (z. B. E-Mail, Dateien, Lohnprogramm), bestimmt der Betrieb. Gesichtsmerkmale sind nie Teil eines Exports.</p>
+
+<h2>6. Käufe</h2>
+<p>Abonnements werden über Apple abgewickelt. Connexa GmbH erhält dabei keine Zahlungs- oder Kontaktdaten. Die App prüft lediglich bei Apple, ob ein Abo aktiv ist. Es gilt die Datenschutzerklärung von Apple.</p>
+
+<h2>7. Berechtigungen</h2>
+<p><b>Kamera:</b> für die Gesichtserkennung und die 3D-Prüfung. <b>Face ID / Touch ID:</b> optional, um die Verwaltung zu öffnen. Diese Prüfung erfolgt durch iOS; die App erhält keine biometrischen Daten des Geräteinhabers.</p>
+
+<h2>8. Aufbewahrung</h2>
+<p>Die Daten bleiben auf dem Gerät, bis sie in der App oder durch Löschen der App entfernt werden. Arbeitszeitnachweise sind in der Schweiz in der Regel 5 Jahre aufzubewahren (ArGV 1, Art. 73). Dafür ist der Arbeitgeber verantwortlich.</p>
+
+<h2>9. Ihre Rechte</h2>
+<p>Nach dem Schweizer Datenschutzgesetz (DSG) und, soweit anwendbar, der DSGVO haben Sie das Recht auf Auskunft, Berichtigung, Löschung und Widerspruch. Da die Daten nur beim Betrieb liegen, wenden Sie sich bitte an Ihren Arbeitgeber. Fragen zur App beantworten wir unter <a href="mailto:privacy@connexa-gmbh.ch">privacy@connexa-gmbh.ch</a>. Sie können sich ausserdem beim Eidgenössischen Datenschutz- und Öffentlichkeitsbeauftragten (EDÖB) beschweren.</p>
+
+<h2>10. Änderungen</h2>
+<p>Wir passen diese Erklärung an, wenn sich die App ändert. Es gilt die jeweils hier veröffentlichte Fassung.</p>
+
+<hr id="en" style="margin:60px 0;border:0;border-top:1px solid var(--line)">
+
+<h1>Privacy Policy for the Stempla app</h1>
+<p class="muted">Last updated: 11 October 2026</p>
+<h2>In short</h2>
+<p>Stempla has no server and no user account. Everything you record in Stempla (staff, time records, PIN check values and face features) is stored only on your device. Connexa GmbH receives none of it. The app contains no advertising, no analytics or tracking tools and no third-party SDKs.</p>
+<h2>Controllers</h2>
+<p>For the app: Connexa GmbH, Wilerstrasse 82, 8370 Sirnach, Switzerland, <a href="mailto:privacy@connexa-gmbh.ch">privacy@connexa-gmbh.ch</a>. For the time records of staff, the business using Stempla (the employer) is the controller and the contact for access, correction and deletion requests. Connexa GmbH has no access to this data.</p>
+<h2>Face recognition</h2>
+<p>Face recognition is voluntary and is only set up after the person concerned explicitly consents in the app. Anyone who does not consent clocks in with a PIN, without any disadvantage. No photos are stored: camera images are analysed in memory and discarded immediately. For each person, a mathematical feature of 128 numbers is stored, from which no photo can be reconstructed. On devices with a TrueDepth camera, Stempla measures the depth of the face to reject photos and screens; depth data is not stored. The features are encrypted with AES-256-GCM, the key is kept in the device keychain ("this device only"), the file is excluded from backups, and the data is never transmitted or used for anything other than time tracking. Consent can be withdrawn at any time; the data is then deleted immediately. Archiving or deleting a person deletes their face data automatically. The recognition model is SFace (OpenCV Model Zoo, Apache License 2.0) running entirely on the device.</p>
+<h2>Exports, purchases, permissions</h2>
+<p>Exports (CSV, PDF) are created only when an authorised person triggers them; face data is never exported. Subscriptions are processed by Apple; we receive no payment or contact data. Camera access is used for face recognition; Face ID / Touch ID is optional to open the admin area and is handled by iOS.</p>
+<h2>Your rights</h2>
+<p>Under the Swiss Federal Act on Data Protection (FADP) and, where applicable, the GDPR, you have the right to access, rectification, erasure and objection. As the data is held only by the business, please contact your employer. For questions about the app, write to <a href="mailto:privacy@connexa-gmbh.ch">privacy@connexa-gmbh.ch</a>.</p>
+</main>
+<footer><a href="./">Stempla</a><a href="support.html">Support</a><a href="imprint.html">Impressum</a><p>© 2026 Connexa GmbH</p></footer>
+</body>
+</html>
